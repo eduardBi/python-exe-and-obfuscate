@@ -23,6 +23,9 @@ If you are considering running it in **Docker**, you **must install all Python d
 
 # How To Use  
 
+### Start default project  
+To run default example just run path/to/build_exe.py and you will be needed cv2 library then after the end of script you will get app.exe inside (`source_for_exe/dist2/app`). after that you can run this app.exe.
+
 ### Handling Non-Python Imports  
 Inside the `config_definer` folder, you can add `not_python_imports`. These could be **pictures, videos, or other non-Python files**. Any files that **do not** have a `.py` extension belong here.  
 

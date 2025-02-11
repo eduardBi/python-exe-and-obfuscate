@@ -6,9 +6,9 @@ encryptor_config_path = os.path.abspath(__file__)
 # Get the parent directory (one level above)
 current_folder = os.path.dirname(os.path.dirname(encryptor_config_path))  # Move up one directory
 
-type_of_executable = "--onedir"
+# type_of_executable = "--onedir"
 
-# type_of_executable = "--onefile"
+type_of_executable = "--onefile"
 
 souce_code_dir = os.path.join(current_folder, 'source_for_exe')
 
